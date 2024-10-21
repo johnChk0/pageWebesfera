@@ -1,0 +1,49 @@
+
+/*RESET CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none !important;
+    color: inherit; 
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none !important;
+    color: inherit;
+}
+button{
+    display: block;
+    outline: none;
+}
+
+:root{
+    --white: white;
+    --black: black;
+
+    --corPrimaria: #4a7be6;
+    --corSecundaria: #2362eb;
+    --corTerciaria: #BCF2FF;
+    --cor04: #35717F;
+    --cor05:#96C2CC;
+
+    --shadow-2: 0 0 0 0.25rem hsla(214, 88%, 27%, 0.274), 0 0 1.25rem hsla(0, 0%, 0%, 0.856);
+
+    --fundoEscuro:  rgba(0, 0, 0, 0.089);
+
+
+
+    /*Fonts*/
+    --fontPrimaria: 'Poppins', sans-serif;
+}
+.separar-section{
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.404);
+}
